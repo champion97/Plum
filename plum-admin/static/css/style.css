@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body,
+#app,
+.wrapper {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, "microsoft yahei", arial, STHeiTi, sans-serif;
+}
+
+a {
+    text-decoration: none
+}
+
+.content {
+    background: none repeat scroll 0 0 #fff;
+    position: absolute;
+    left: 250px;
+    right: 0;
+    top: 70px;
+    bottom: 0;
+    width: auto;
+    padding: 40px;
+    box-sizing: border-box;
+    overflow-y: scroll;
+}
+
+.crumbs {
+    margin-bottom: 20px;
+}
+
+.header {
+    background-color: #242f42;
+}
+
+.login-wrap {
+    background: #324157;
+}
+
+.crumbs{
+    margin-bottom: 20px;
+}
+.pagination{
+    margin: 20px 0;
+    text-align: right;
+}
+

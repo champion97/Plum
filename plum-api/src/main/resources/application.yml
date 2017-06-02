@@ -1,0 +1,45 @@
+server:
+    port: 8080
+spring:
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/plum?useSSL=false&serverTimezone=UTC&characterEncoding=utf-8
+    username: root
+    password: root
+    hikari:
+      connection-timeout: 60000
+      maximum-pool-size: 10
+  jpa:
+    database: mysql
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  mail:
+    host: smtp.qq.com
+    username:
+    password:
+    properties.mail.smtp.auth: true
+    properties.mail.smtp.starttls.enable: true
+    properties.mail.smtp.starttls.required: true
+logging:
+  level:
+    root: INFO
+    org.springframework.web: INFO
+    org.hibernate.SQL: DEBUG
+    com.maybelive: DEBUG
+admin:
+  username: admin
+  password: admin
+jwt:
+  issuer: plum
+  secret: Poseidon
+  expires_in: 43200 # 12小时；单位：秒
+mail:
+  notification: true
+  from:
+  to:
+  subject: 有人@你
+  text: author 在 title 回复了你:text  agent   ip
+
+
+

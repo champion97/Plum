@@ -1,0 +1,187 @@
+header {
+    border-bottom: 1px solid #eee;
+    padding-right: 10em;
+    padding-left: 10em;
+}
+
+header .title {
+    line-height: 2.1em;
+    float: left;
+    font-size: 1.5em;
+}
+
+header .beta {
+    margin-left: 0.3em;
+    font-size: 0.55em;
+    color: #c0c0c0;
+}
+
+nav {
+    float: right;
+    padding: 0.65em;
+}
+
+header ul li {
+    float: left;
+    margin-left: 2em;
+    list-style: none;
+}
+
+header ul li a {
+    font-size: 0.85em;
+    color: #4296DB;
+    text-decoration: none;
+}
+
+header ul li a:hover {
+    color: #e7645c;
+    text-decoration: none;
+}
+
+.post-content {
+    padding-bottom: 3em;
+}
+
+/*修复代码块太长*/
+pre code {
+    overflow-x: scroll;
+}
+
+/*修复 video 小屏幕溢出*/
+@media (max-width: 550px) {
+    video {
+        width: 100%;
+    }
+}
+
+.copyright {
+    border: 1px solid #eee;
+    list-style: none;
+    padding: 0.8em;
+}
+
+.copyright ul {
+    margin: 0;
+}
+
+.copyright ul li {
+    font-size: 0.9em;
+    list-style: none;
+}
+
+.join-sponsor {
+    text-align: right;
+}
+
+.full {
+    height: 100%;
+    width: 100%;
+}
+
+.landing-wrapper {
+    text-align: center;
+    padding-top: 2em;
+}
+
+.landing-wrapper img {
+    height: 35em;
+}
+
+a.logo {
+    color: #000;
+}
+
+@media (max-width: 960px) {
+    header {
+        padding-right: 1em;
+        padding-left: 1em;
+    }
+}
+
+@media (max-width: 550px) {
+    header ul li {
+        margin-left: 1em;
+    }
+
+    .landing-wrapper img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.post-published {
+    width: 70%;
+    margin: 0 auto;
+}
+
+p.center {
+    margin-top: 1em;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.post-published td.author {
+    text-align: center;
+}
+
+.post-published td.time {
+    text-align: right;
+}
+
+.post-published tbody tr {
+    height: 3em;
+}
+
+.post-published td {
+    border: none;
+}
+
+.post-published ul li {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: 0.9em;
+}
+
+.post-published ul li small {
+    font-size: 0.6em;
+}
+
+p {
+    margin: 0 0 1.5em;
+}
+
+.post-content {
+    font: 400 16px / 1.62 'PT Sans', "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, Hiragino Sans GB, Microsoft YaHei, sans-serif;
+}
+
+p {
+    color: #222;
+    line-height: 1.9;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'PT Serif', "Georgia", "Times New Roman", Times, "Songti SC", "SimSun", sans-serif;
+}
+
+p img {
+    display: block;
+    margin: 0 auto;
+}
+
+blockquote {
+    color: #777;
+    display: block;
+    text-align: justify;
+    border-left: 4px solid #e7645c;
+    margin-left: 0;
+}
+
+blockquote p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    color: #777;
+    font-size: 0.90em;
+}

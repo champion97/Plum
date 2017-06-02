@@ -1,0 +1,22 @@
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# IntelliJ
+.idea
+*.iml
+out
+target
+
+# OSX
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
