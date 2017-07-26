@@ -9,4 +9,8 @@ Blog 展示部分比较简洁、阉割了很多功能，多了一些纯粹的味
 
 但是 [API](http://115.159.43.199:8080/swagger-ui.html)  部分还是比较健全的。
 
+截图：
 
+![1.png](https://ooo.0o0.ooo/2017/07/26/597837f62ef35.png)
+![2.png](https://i.loli.net/2017/07/26/597837f62efe9.png)
+![3.png](https://i.loli.net/2017/07/26/59783851ce005.png)
