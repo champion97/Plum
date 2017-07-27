@@ -1,7 +1,7 @@
 # Plum
 
 
-## 介绍
+## 结构
 
 .  
 ├── LICENSE    
@@ -20,7 +20,7 @@
 
 ## 部署
 
-plum-api：
+### plum-api：
 
 1.修改`application.yml`
 
@@ -29,7 +29,7 @@ plum-api：
 3.将文件上传到服务器，输入`java -jar plum-api.jar`即可启动api服务
 
 
-plum-admin:
+### plum-admin:
 
 1.修改`/Plum/plum-admin/src/config/app.js`
 
@@ -38,7 +38,7 @@ plum-admin:
 3.将 dist 目录下的文件放到 nginx 所指定的项目目录
 
 
-plum
+### plum
 
 1.修改`/Plum/plum/src/api/index.js`
 
@@ -48,7 +48,7 @@ plum
 
 
 
-截图：
+## 截图：
 
 ![3.png](https://i.loli.net/2017/07/26/59783851ce005.png)
 
