@@ -4,12 +4,18 @@
 ## 介绍
 
 .  
-├── LICENSE           
+├── LICENSE    
+
 ├── README.md  
+
 ├── database.sql     # 数据库结构  
-├── nginx.conf       # nginx 配置文件  
+
+├── nginx.conf       # nginx 配置文件
+
 ├── plum             # 对外展示部分  
+
 ├── plum-admin       # 后台管理  
+
 └── plum-api         # API  
 
 ## 部署
