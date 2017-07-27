@@ -3,7 +3,6 @@
 
 ## 结构
 
-.  
 ├── LICENSE    
 
 ├── README.md  
@@ -54,4 +53,3 @@
 
 ![1.png](https://ooo.0o0.ooo/2017/07/26/597837f62ef35.png)
 
-![2.png](https://i.loli.net/2017/07/26/597837f62efe9.png)
