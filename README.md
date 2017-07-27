@@ -1,13 +1,33 @@
 # Plum
 
 
-很早以前学 Vue.js 1.0 的时候写过一个[VueBlog](https://github.com/fku233/VueBlog)，完全由 Github Pages 驱动，没有后台部分，写文章不是很舒服。
+## 介绍
 
-于是又用 Java8 + Vue.js 2.0 写了这个。
+.
+├── LICENSE         
+├── README.md
+├── database.sql     # 数据库结构
+├── nginx.conf       # nginx 配置文件
+├── plum             # 对外展示部分
+├── plum-admin       # 后台管理
+└── plum-api         # API
 
-Blog 展示部分比较简洁、阉割了很多功能，多了一些纯粹的味道。(主要是懒)
+## 部署
 
-但是 [API](http://115.159.43.199:8080/swagger-ui.html)  部分还是比较健全的。
+plum-api：
+1.修改`application.yml`
+2.通过`mvn package`命令得到`plum-api.jar`
+3.将文件上传到服务器，输入`java -jar plum-api.jar`即可启动api服务
+
+plum-admin:
+1.修改`/Plum/plum-admin/src/config/app.js`
+2.输入`npm i`安装依赖，输入`npm run build`打包
+3.将 dist 目录下的文件放到 nginx 所指定的项目目录
+
+plum
+1.修改`/Plum/plum/src/api/index.js`
+2.输入`npm i`安装依赖，输入`npm run build`打包
+3.将 dist 目录下的文件放到 nginx 所指定的项目目录
 
 截图：
 
