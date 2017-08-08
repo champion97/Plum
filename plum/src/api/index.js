@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 var request = axios.create({
-  baseURL: 'http://127.0.0.1:8080/api'
+  baseURL: 'https://api.ridog.me/api'
 });
 
 request.defaults.headers.post['Content-Type'] = 'application/json'
@@ -27,3 +27,5 @@ api.comment = (data) => {
 api.getSinglePage = (slug) => {
   return request.get(`/page/${slug}`)
 }
+
+export default api
